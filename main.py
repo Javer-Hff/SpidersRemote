@@ -1,4 +1,3 @@
 class Run:
-    @staticmethod
-    def start():
-        print("========remote execute========")
+    def start(self):
+        return "remote script executed"
